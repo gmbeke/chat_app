@@ -85,14 +85,14 @@ class _ChatViewState extends State<ChatView> {
                 ),
               ],
             ),
-            const SizedBox(width: 12),
+            const SizedBox(width: 10),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     widget.other.displayName,
-                    style: const TextStyle(fontSize: 16),
+                    style: const TextStyle(fontSize: 15),
                   ),
                   StreamBuilder<bool>(
                     stream: _presenceService.isUserOnline(widget.other.uid),
@@ -102,7 +102,7 @@ class _ChatViewState extends State<ChatView> {
                         isOnline ? 'Online' : 'Offline',
                         style: TextStyle(
                           fontSize: 12,
-                          color: isOnline ? Colors.green : Colors.grey,
+                          color: isOnline ? Colors.#5f9ea0 : Colors.grey,
                         ),
                       );
                     },
