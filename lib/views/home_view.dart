@@ -210,7 +210,7 @@ class _HomeViewState extends State<HomeView> {
                     snapshot.data?.where((u) => u.uid != _me?.uid).toList() ??
                     [];
                 if (users.isEmpty) {
-                  return const Center(child: Text('No other users yet.'));
+                  return const Center(child: Text('No other users yet, asky user to give you his user Id.'));
                 }
                 return ListView.builder(
                   padding: const EdgeInsets.only(top: 8),
