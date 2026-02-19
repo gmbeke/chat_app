@@ -46,7 +46,7 @@ class _ProfileViewState extends State<ProfileView> {
       if (mounted) {
         ScaffoldMessenger.of(
           context,
-        ).showSnackBar(SnackBar(content: Text('Error: $e')));
+        ).showSnackBar(SnackBar(content: Text('An Error occured, see the error description: $e')));
       }
     } finally {
       if (mounted) {
