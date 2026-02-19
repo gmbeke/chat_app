@@ -3,7 +3,8 @@ Git username      name             regNo
 gmbeke          Gabriel J Mbeke    NIT/BIT/2023/2053
 slaugher        Steven Tarimo      NIT/BIT/2023/2124
 @Tzone001.      TAZE JUMANNE       NIT/BIT/2023/2216
-
+Mchenya262 DOTTO Y MCHENYA
+NIT/BIT/2023/2205
 
 
 
