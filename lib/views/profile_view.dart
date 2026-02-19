@@ -27,7 +27,7 @@ class _ProfileViewState extends State<ProfileView> {
     if (name.isEmpty) {
       ScaffoldMessenger.of(
         context,
-      ).showSnackBar(const SnackBar(content: Text('Name cannot be empty')));
+      ).showSnackBar(const SnackBar(content: Text('Name cannot be empty, please try again')));
       return;
     }
 
@@ -39,7 +39,7 @@ class _ProfileViewState extends State<ProfileView> {
       if (mounted) {
         Navigator.pop(context, true);
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Profile updated successfully')),
+          const SnackBar(content: Text('Congraturations, Profile updated successfully')),
         );
       }
     } catch (e) {
