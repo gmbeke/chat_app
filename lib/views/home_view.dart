@@ -89,7 +89,7 @@ class _HomeViewState extends State<HomeView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Connecta',
+          'Group 12 Chat App',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         actions: [
