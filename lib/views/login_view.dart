@@ -162,7 +162,7 @@ class _LoginViewState extends State<LoginView> {
                         ),
                       )
                     : Text(
-                        _isLogin ? 'Have an account?, Sign In' : 'Don't have an account, Sign Up',
+                        _isLogin ? "Have an account? Sign In" : "Don't have an account? Sign Up",
                         style: const TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,

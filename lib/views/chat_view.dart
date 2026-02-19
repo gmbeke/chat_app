@@ -102,7 +102,7 @@ class _ChatViewState extends State<ChatView> {
                         isOnline ? 'Online' : 'Offline',
                         style: TextStyle(
                           fontSize: 12,
-                          color: isOnline ? Colors.#5f9ea0 : Colors.grey,
+                          color: isOnline ? Colors.green : Colors.grey,
                         ),
                       );
                     },
