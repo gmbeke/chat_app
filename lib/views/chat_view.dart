@@ -85,6 +85,7 @@ class _ChatViewState extends State<ChatView> {
                 ),
               ],
             ),
+            
             const SizedBox(width: 10),
             Expanded(
               child: Column(
