@@ -112,7 +112,7 @@ class _HomeViewState extends State<HomeView> {
                 elevation: 0,
                 color: Colors.blue[50],
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
+                  borderRadius: BorderRadius.circular(13),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(16),
