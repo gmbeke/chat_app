@@ -95,6 +95,15 @@ class _HomeViewState extends State<HomeView>
     );
   }
 
+  
+  void _openChat(UserModel other) {
+    if (_me == null) return;
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => ChatView(me: _me!, other: other)),
+    );
+  }
+
   //chat
 
   @override
@@ -139,13 +148,13 @@ class _HomeViewState extends State<HomeView>
     return AnimatedContainer(
       duration: const Duration(milliseconds: 400),
       curve: Curves.easeOut,
-      margin: const EdgeInsets.all(16),
-      padding: const EdgeInsets.all(16),
+      margin: const EdgeInsets.all(8),
+      padding: const EdgeInsets.all(8),
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [theme.primaryColor, theme.primaryColorDark],
         ),
-        borderRadius: BorderRadius.circular(16),
+        borderRadius: BorderRadius.circular(8),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(.15),
