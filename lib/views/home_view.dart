@@ -28,7 +28,7 @@ class _HomeViewState extends State<HomeView> {
     _presenceService.startTracking();
     _loadMe();
   }
-
+ 
   Future<void> _loadMe() async {
     final user = _authService.currentUser;
     if (user != null) {
