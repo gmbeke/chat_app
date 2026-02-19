@@ -95,6 +95,8 @@ class _HomeViewState extends State<HomeView>
     );
   }
 
+  //chat
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
