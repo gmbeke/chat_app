@@ -16,7 +16,7 @@ class MessageModel {
     this.timestamp,
     this.readAt,
   });
-
+ 
   factory MessageModel.fromMap(String id, Map<String, dynamic> map) {
     return MessageModel(
       id: id,
